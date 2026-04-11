@@ -1,0 +1,7 @@
+ikpy
+draccus
+lerobot
+opencv-python
+numpy
+pyarrow
+requests

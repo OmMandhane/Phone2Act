@@ -1,0 +1,19 @@
+phone2act_planner:
+  ros__parameters:
+    scale_pos: 800.0
+    scale_rot: 1.0
+
+    safe_limit_jump: 40.0
+    cmd_rate_hz: 20.0
+
+    limits.x: [-800.0, 800.0]
+    limits.y: [-800.0, 800.0]
+    limits.z: [-800.0, 800.0]
+
+    mapping.position.x: "-x"
+    mapping.position.y: "+z"
+    mapping.position.z: "+y"
+
+    mapping.rotation.rx: "+pitch"
+    mapping.rotation.ry: "+yaw"
+    mapping.rotation.rz: "+roll"

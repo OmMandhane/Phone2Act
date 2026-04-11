@@ -1,0 +1,27 @@
+phone2act_planner:
+  ros__parameters:
+
+    # ===== Scaling =====
+    scale_pos: 800.0
+    scale_rot: 1.0
+
+    # ===== Safety =====
+    safe_limit_jump: 100.0
+    cmd_rate_hz: 30.0
+
+    # ===== Workspace Limits (mm) =====
+    limits.x: [-800.0, 800.0]
+    limits.y: [-800.0, 800.0]
+    limits.z: [-800.0, 800.0]
+
+    # ===== Position Mapping =====
+    # Format: "+x", "-y", "+z"
+    mapping.position.x: "+x"
+    mapping.position.y: "+y"
+    mapping.position.z: "+z"
+
+    # ===== Rotation Mapping =====
+    # roll, pitch, yaw from phone → rx, ry, rz of robot
+    mapping.rotation.rx: "+roll"
+    mapping.rotation.ry: "+pitch"
+    mapping.rotation.rz: "+yaw"
