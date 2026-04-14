@@ -125,7 +125,7 @@ source install/setup.bash
 ## 📱 Phone App & How to Hold the Phone
 
 <div align="center">
-  <img src="media/phone_app_ui.png" alt="Phone2Act App UI" width="32%"/>
+  <img src="media/phone_app_ui.jpeg" alt="Phone2Act App UI" width="32%"/>
   &nbsp;&nbsp;
   <img src="media/phone_holding.png" alt="How to hold the phone" width="55%"/>
 </div>
@@ -144,9 +144,8 @@ source install/setup.bash
 | Input | Action |
 |---|---|
 | **Move phone** | Translates/rotates robot end-effector |
-| **Volume Up** | Engage **clutch** — robot holds position, phone can be freely repositioned |
-| **Volume Down** | Toggle **gripper** open/close |
-| **Release Volume Up** | Disengage clutch — resumes teleoperation from new reference origin |
+| **Volume Up** | Toggle **gripper** open/close |
+| **Volume Down** | Toggle Engage/Disengage **clutch** — robot holds position, phone can be freely repositioned, resumes teleoperation from new reference origin once pressed again |
 
 ### How to Hold the Phone
 
@@ -154,7 +153,7 @@ source install/setup.bash
   <img src="media/phone_holding.png" alt="Phone holding guide" width="70%"/>
 </div>
 
-Hold the phone in one hand, pointed toward the robot's workspace, as shown above. Move your hand naturally — the ARCore pose tracker handles the rest. Use the **clutch** (Volume Up) any time you need to reposition your hand; the robot holds its position and re-indexes when you release.
+Hold the phone in one hand, pointed toward the robot's workspace, as shown above. Move your hand naturally — the ARCore pose tracker handles the rest. Use the **clutch** (Volume Down) to start teleop for the first time, it disengages the clutch. any time you need to reposition your hand press it again; the robot holds its position and re-indexes when you press again.
 
 **Tips for smooth teleoperation:**
 - Press clutch once from a comfortable resting position to set the origin
@@ -418,12 +417,7 @@ ros2 node list                          # Confirm all nodes are running
 If you use Phone2Act in your research, please cite:
 
 ```bibtex
-@article{mandhane2025phone2act,
-  title   = {Phone2Act: A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection},
-  author  = {Mandhane, Om and Yadav, Bipin and Prasanna Ram, Sangeetha and Narayanan, Gopalakrishnan},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
-  year    = {2025}
-}
+not published yet.
 ```
 
 ---
