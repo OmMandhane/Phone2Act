@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv"/></a>
   &nbsp;
-  <a href="https://phone2act.github.io"><img src="https://img.shields.io/badge/🌐-Website-4285F4?style=for-the-badge" alt="Website"/></a>
+  <a href="https://ommandhane.github.io/Phone2Act_Website/"><img src="https://img.shields.io/badge/🌐-Website-4285F4?style=for-the-badge" alt="Website"/></a>
   &nbsp;
   <a href="https://github.com/OmMandhane/Phone2Act/releases"><img src="https://img.shields.io/badge/📱-Download_APK-3DDC84?style=for-the-badge&logo=android" alt="APK"/></a>
   &nbsp;
