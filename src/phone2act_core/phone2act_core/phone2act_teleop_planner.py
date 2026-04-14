@@ -118,10 +118,10 @@ class Phone2ActPlanner(Node):
         self.create_subscription(PoseStamped, 'phone2act/robot_feedback',
                                  self.cb_robot_feedback, qos_profile=qos_realtime)
 
-        self.create_subscription(PoseStamped, 'bros2/ar_pose',
+        self.create_subscription(PoseStamped, 'Phone2Act/ar_pose',
                                  self.cb_ar_pose, 10)
 
-        self.create_subscription(Int32MultiArray, 'bros2/volume',
+        self.create_subscription(Int32MultiArray, 'Phone2Act/volume',
                                  self.cb_clutch, 10)
 
         self.pub_target = self.create_publisher(PoseStamped,
