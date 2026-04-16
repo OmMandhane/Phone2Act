@@ -250,9 +250,9 @@ ros2 run phone2act_lerobot lerobot_hardware_bridge \
   --ros-args -p usb_port:=/dev/ttyUSB0
 ```
 
-#### Bimanual Setup
+<!-- #### Bimanual Setup -->
 
-Scaling to a dual-arm configuration requires **zero modifications** to the core source code. A standard launch file spins up two instances in isolated ROS 2 namespaces:
+<!-- Scaling to a dual-arm configuration requires **zero modifications** to the core source code. A standard launch file spins up two instances in isolated ROS 2 namespaces:
 
 ```bash
 ros2 launch phone2act_lerobot bimanual.launch.py
@@ -260,7 +260,7 @@ ros2 launch phone2act_lerobot bimanual.launch.py
 
 In the app, assign one phone to publish to `/left/bros2/ar_pose` and the other to `/right/bros2/ar_pose`. Both data streams remain perfectly distinct.
 
----
+--- -->
 
 ### Option C: Custom Robot
 

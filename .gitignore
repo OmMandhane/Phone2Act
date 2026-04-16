@@ -1,9 +1,8 @@
-# ROS 2 Workspace folders
 build/
 install/
 log/
 
-# Python junk
+
 __pycache__/
 *.pyc
 *.pyo
@@ -12,6 +11,5 @@ __pycache__/
 env/
 venv/
 
-# OS generated files
 .DS_Store
 .vscode/
