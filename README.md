@@ -425,7 +425,8 @@ If you use Phone2Act in your research, please cite:
   archivePrefix={arXiv},
   primaryClass={cs.RO},
   url={https://arxiv.org/abs/2605.01948}
-}```
+}
+```
 
 ---
 
