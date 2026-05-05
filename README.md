@@ -7,7 +7,7 @@
 ### A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection
 
 <p align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv"/></a>
+  <a href="https://arxiv.org/abs/2605.01948"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b?style=for-the-badge&logo=arxiv" alt="arXiv"/></a>
   &nbsp;
   <a href="https://ommandhane.github.io/Phone2Act_Website/"><img src="https://img.shields.io/badge/🌐-Website-4285F4?style=for-the-badge" alt="Website"/></a>
   &nbsp;
@@ -417,8 +417,15 @@ ros2 node list                          # Confirm all nodes are running
 If you use Phone2Act in your research, please cite:
 
 ```bibtex
-not published yet.
-```
+@misc{mandhane2026phone2act,
+  title={Phone2Act: A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection}, 
+  author={Om Mandhane and Bipin Yadav and Sangeetha Prasanna Ram and Gopalakrishnan Narayanan},
+  year={2026},
+  eprint={2605.01948},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2605.01948}
+}```
 
 ---
 
